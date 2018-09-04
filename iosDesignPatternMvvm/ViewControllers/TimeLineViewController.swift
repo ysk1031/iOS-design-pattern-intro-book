@@ -61,7 +61,7 @@ final class TimeLineViewController: UIViewController {
     }
     
     @objc private func refreshControlValueDidChange(sender: UIRefreshControl) {
-        
+        viewModel.getUsers()
     }
 
     /*
